@@ -1,0 +1,249 @@
+html{
+    background: whitesmoke;
+
+}
+header{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    box-shadow: 4px 10px 5px 5px #E9EDC9;
+    background: #CCD5AE;
+}
+header a.head{
+    color: #D4A373 ;
+    text-decoration: none;
+    font-size: large;
+}
+.content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.content-text{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+
+}
+.content-text h3{
+/* border: 1px solid black; */
+border-radius: 20px;
+/* margin: 20px; */
+padding: 50px;
+text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: #F1E3F3;
+    margin-bottom: 20px;
+}
+.content-text h2{
+border: 1px solid #D4A373;
+border-radius: 20px;
+margin: 20px;
+padding: 10px;
+text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.content-text p{
+border: 1px solid #D4A373;
+margin: 80px;
+white-space: normal;
+text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    font-family: sans-serif;
+
+}
+.content-text h2{
+border: 1px solid #D4A373;
+margin: 20px;
+text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.image img{
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding: 10px;
+    height: auto;
+    
+    align-items: start;
+}
+.about-me{
+    background: #F1E3F3;
+    border: 1px solid #F1E3F3;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+}
+.about-me video{
+    width: 100%;
+}
+.about-me__text p{
+    /* border-left: 3px solid black; */
+/* margin: 80px; */
+white-space: normal;
+text-align: center;
+    align-items: center;
+    /* border-radius: 20px; */
+    font-family: sans-serif;
+    font-display: auto;
+}
+.about-me__text {
+    /* border-left: 3px solid black; */
+    padding: 5px;
+}
+.publications-content{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    
+}
+.publications-content{
+    display: flex;
+}
+button{
+    border: 1px solid black;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    background: #CCD5AE ;
+    cursor: pointer;
+}
+button:hover{
+    color: #F1E3F3;
+    background: #1b200b ;
+}
+.image-img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.image-social .image-img img{
+    width: 30px;
+    height: 30px;
+}
+footer{
+    border-top: 3px solid black;
+}
+
+
+
+
+
+
+
+
+
+/* //media// */
+@media (max-width: 480px){
+    .image img{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    /* margin-top: 50px; */
+    border-radius: 15px;
+    display: block;
+    /* padding: 10px; */
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.content-text h3{
+border: 1px solid black;
+margin: 10px;
+white-space: normal;
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+font-weight: 300;
+}
+.content-text p{
+border: 1px solid black;
+margin: 40px;
+
+}
+.content-text{
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+
+}
+.content-text h2{
+border: 1px solid black;
+margin: 10px;
+}
+section.about-me .about-me__text p{
+    white-space: normal;
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+font-weight: 300;
+
+}
+.about-me__text{
+padding: 3px;
+}
+.about-me video{
+    width: 100%;
+    margin-top: 50px;
+    padding: 5px;
+    
+    border-radius: 4px;
+}
+.publications-content{
+    display: flex;
+    margin: 0;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    
+}
+.publications-content .pub1 h3,p{
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.publications-content .pub2 h3,p{
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.publications-content .pub3 h3,p{
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.publications-content .pub4 h3,p{
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.publications-content .pub5 h3,p{
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.publications-content .pub6 h3,p{
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.publications-content .pub7 h3,p{
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+}
