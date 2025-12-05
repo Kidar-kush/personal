@@ -80,26 +80,44 @@ text-align: center;
     background: #F1E3F3;
     border: 1px solid #F1E3F3;
     border-radius: 15px;
+  
     display: flex;
-    padding: 5px;
+   
 }
 .about-me video{
+   width: 100%;
+    
+    border-radius: 5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: 88%;
+    object-fit: cover;
+}
+.about-me .video{
+    
+    position: relative;
+}
+.about-me .video h3{
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    font-size: 0.7rem;
+    background: #fff;
     width: 100%;
+    padding: 1rem 0rem;
+    text-align: center;
+    mix-blend-mode: screen;
+    margin-left: 4px;
 }
 .about-me__text p{
-    /* border-left: 3px solid black; */
-/* margin: 80px; */
-white-space: normal;
-text-align: center;
-    align-items: center;
-    /* border-radius: 20px; */
     font-family: sans-serif;
     font-display: auto;
+    font-size: 1.2rem;
+    color: #999;
+    margin-left: 20px;
+    padding-top: 1rem;
+    line-height: 1;
 }
-.about-me__text {
-    /* border-left: 3px solid black; */
-    padding: 5px;
-}
+
 .publications-content{
     display: flex;
     gap: 30px;
@@ -122,6 +140,8 @@ button{
     border-radius: 5px;
     background: #CCD5AE ;
     cursor: pointer;
+    display: inline-block;
+    font-size: 1.7rem;
 }
 button:hover{
     color: #F1E3F3;
