@@ -4,22 +4,35 @@
     box-sizing: border-box;
 }
 html{
-    background: whitesmoke;
+    background: #E2d9ca;
 
 }
+header span{
+    color: #e34234;
+    font-size:50px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
 header{
     display: flex;
     gap: 50px;
     justify-content: space-between;
     border-bottom: 3px solid black;
     padding: 10px;
-    box-shadow: 4px 10px 5px 5px #E9EDC9;
-    background: #CCD5AE;
+    box-shadow: 4px 8px 5px 5px #e2e3dd;
+    background: #c6b49f;
 }
 header a.head{
-    color: #D4A373 ;
+    color: #2c2929 ;
     text-decoration: none;
     font-size: large;
+}
+header nav a{
+    text-decoration: none;
+    color: #2c2929;
+    font-size: 20px;
+    gap: 10px;
 }
 .content{
     display: flex;
@@ -47,7 +60,7 @@ padding: 50px;
 text-align: center;
     align-items: center;
     font-family: sans-serif;
-    background: #F1E3F3;
+    background: #f4d7ac;
     margin-bottom: 20px;
 }
 .content-text h2{
