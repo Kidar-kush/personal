@@ -121,6 +121,9 @@ text-align: center;
     text-align: center;
     justify-content: center;
 }
+.content-image{
+    margin-top: 10px;
+}
 .content-image a{
     display: flex;
     flex-direction: row;
@@ -208,11 +211,14 @@ text-align: center;
 button{
     border: 1px solid black;
     padding: 5px 30px 5px 30px;
-    border-radius: 5px;
+    border-radius: 65px;
     background: #CCD5AE ;
     cursor: pointer;
     display: inline-block;
     font-size: 1.7rem;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 button:hover{
     color: #F1E3F3;
@@ -258,7 +264,7 @@ footer{
 margin: 2px;
 white-space: normal;
 font-family: Arial, Helvetica, sans-serif;
-font-size: small;
+font-size: 14px;
 font-weight: 300;
 height: 400px;
 }
@@ -313,7 +319,7 @@ margin: 10px;
 section.about-me .about-me__text p{
     white-space: normal;
 font-family: Arial, Helvetica, sans-serif;
-font-size: small;
+font-size: 13px;
 font-weight: 300;
 }
 .about-me__text{
